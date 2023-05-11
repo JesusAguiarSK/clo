@@ -6,7 +6,7 @@ const addCartItem = (cartItems, productToAdd) => {
     //if found, increment quantity
 
     //return new array with modified cartItems/ new cart item
-} 
+};
 
 export const CartContext = createContext({
     isCartOpen: false,
@@ -26,4 +26,4 @@ export const CartProvider = ({children}) => {
     };
 
     return <CartContext.Provider value={value}>{children}</CartContext.Provider>
-}
+};
